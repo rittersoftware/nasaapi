@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>NASA API Testing</title>
+    <meta name="description" content="NASA API Testing">
+    <meta name="author" content="Ritter Software">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+    <div id="nasacontent">
+        <!-- API Title as it will appear in the left nav table of contents -->
+        <h1 id="your_api_id">My API</h1>
+
+        <!-- provide a background and overview of your API -->
+        <p>API overview goes here</p>
+
+        <!-- Optional - include sample imagery -->
+        <p><strong>Example image:</strong></p>
+        <p><img src="images/apod.jpg" /></p>
+
+        <!-- Sample HTTP Request -->
+        <h3 id="http-request">HTTP Request</h3>
+        <p>
+            <code class="prettyprint">
+                GET https://api.nasa.gov/nasa/group/your_api
+            </code>
+        </p>
+
+        <!-- Query Parameters-->
+        <h3 id="query-parameters">Query Parameters</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!-- uncomment and repeat for each param -->
+                <!-- <tr>
+        <td>my_parameter</td>
+        <td>the type</td>
+        <td><em>today</em></td>
+        <td>A parameter in my API</td>
+        </tr> -->
+            </tbody>
+        </table>
+
+        <!-- Make an example GET call to see your API in action, use mX6i00KoQkyDdivT9oTFDSyp3rMYJnZY0gasEMTo -->
+        <h3 id="example-query">Example query</h3>
+        <p>
+            <a href="https://api.nasa.gov/planetary/apod?api_key=mX6i00KoQkyDdivT9oTFDSyp3rMYJnZY0gasEMTo">
+                <code class="prettyprint">
+                     https://api.nasa.gov/planetary/apod?api_key=mX6i00KoQkyDdivT9oTFDSyp3rMYJnZY0gasEMTo
+                </code>
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
