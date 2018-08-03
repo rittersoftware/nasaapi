@@ -9,11 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "expressjs": "^1.0.1",
     "http": "0.0.0",
     "io": "^1.0.0",
     "path": "^0.12.7",
     "requirejs": "^2.3.5",
     "unirest": "^0.5.1"
+  },
+  "devDependencies": {
+    "config": "^2.0.1",
+    "expressjs": "^1.0.1"
   }
 }
